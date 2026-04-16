@@ -1,0 +1,252 @@
+---
+title: ""
+format: html
+---
+
+```{=html}
+<div class="wd-hero content-section">
+
+  <div class="wd-hero-copy">
+    <div class="wd-eyebrow">Web Development</div>
+    <h1 class="wd-hero-title">
+      Websites That<br>
+      <span>Work as Hard</span><br>
+      as You Do
+    </h1>
+    <p class="wd-hero-subtitle">
+      Fast, accessible, and beautifully functional — I build modern, 
+      mobile-first websites for academics, researchers, and businesses 
+      that need a digital presence worth remembering.
+    </p>
+    <div class="wd-hero-actions">
+      <a href="/contact.qmd" class="btn-primary-wd">Start a Web Project</a>
+      <a href="#services" class="btn-ghost-wd">Explore Services ↓</a>
+    </div>
+  </div>
+
+  <div class="wd-hero-visual">
+    <div class="hero-carousel-container">
+      
+      <div class="hero-carousel" id="heroCarousel">
+        
+        <div class="hero-carousel-card">
+          <div class="carousel-preview">
+            <div class="mini-browser-bar">
+              <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+            </div>
+            <div class="preview-image-container">
+              <img src="/images/Livesite_1.png" alt="Academic Portfolio" class="carousel-screenshot">
+            </div>
+          </div>
+          <div class="carousel-info">
+            <div class="carousel-info-text">
+              <h4>Dr. [Name] Portfolio</h4>
+              <p>Academic • Quarto</p>
+            </div>
+            <a href="[https://your-live-link.com](https://your-live-link.com)" target="_blank" rel="noopener" class="carousel-live-btn">Live Site ↗</a>
+          </div>
+        </div>
+
+        <div class="hero-carousel-card">
+          <div class="carousel-preview">
+            <div class="mini-browser-bar">
+              <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+            </div>
+            <div class="preview-image-container">
+              <img src="images/project-2.png" alt="Project Showcase" class="carousel-screenshot">
+            </div>
+          </div>
+          <div class="carousel-info">
+            <div class="carousel-info-text">
+              <h4>[Project] Showcase</h4>
+              <p>Research • Observable JS</p>
+            </div>
+            <a href="[https://your-live-link.com](https://your-live-link.com)" target="_blank" rel="noopener" class="carousel-live-btn">Live Site ↗</a>
+          </div>
+        </div>
+
+        <div class="hero-carousel-card">
+          <div class="carousel-preview">
+            <div class="mini-browser-bar">
+              <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+            </div>
+            <div class="preview-image-container">
+              <img src="images/project-3.png" alt="Agency Website" class="carousel-screenshot">
+            </div>
+          </div>
+          <div class="carousel-info">
+            <div class="carousel-info-text">
+              <h4>[Agency] Website</h4>
+              <p>Business • Next.js</p>
+            </div>
+            <a href="[https://your-live-link.com](https://your-live-link.com)" target="_blank" rel="noopener" class="carousel-live-btn">Live Site ↗</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="carousel-controls">
+        <button onclick="scrollHeroCarousel(-1)" class="carousel-btn" aria-label="Previous"><i class="fa-solid fa-chevron-left"></i></button>
+        <button onclick="scrollHeroCarousel(1)" class="carousel-btn" aria-label="Next"><i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    function scrollHeroCarousel(direction) {
+      const carousel = document.getElementById('heroCarousel');
+      if (!carousel) return;
+      const scrollAmount = carousel.clientWidth;
+      carousel.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      const carousel = document.getElementById('heroCarousel');
+      if (!carousel) return;
+      
+      setInterval(() => {
+        if (carousel.scrollLeft + carousel.clientWidth >= carousel.scrollWidth - 10) {
+          carousel.scrollTo({ left: 0, behavior: 'smooth' });
+        } else {
+          scrollHeroCarousel(1);
+        }
+      }, 4000); 
+    });
+  </script>
+
+</div>
+
+<section id="services" class="content-section">
+  <div class="section-label">What I Build</div>
+  <h2 class="section-title">Two Website Types, One Standard of Quality</h2>
+  <p>
+    Whether you are an academic building an online identity, a researcher showcasing 
+    a project, or a business seeking new clients — every site gets the same 
+    deliberate craft and clean, maintainable code.
+  </p>
+  <div class="section-divider"></div>
+
+  <div class="tier-grid">
+
+    <div class="tier-card featured">
+      <div class="featured-badge">Most Requested</div>
+      <div class="tier-top">
+        <div class="tier-icon">👨‍💻</div>
+        <div class="tier-name">Academic &amp; Portfolio</div>
+        <div class="tier-tagline">For researchers, developers &amp; project grants</div>
+      </div>
+      <div class="tier-body">
+        <p class="tier-desc">
+          Your first impression online should be as sharp as your CV. 
+          I build sleek, fast portfolio and project sites that put your publications, 
+          grants, and credentials front and centre.
+        </p>
+        <ul class="tier-features">
+          <li>Publications, CV &amp; project showcase</li>
+          <li>Interactive data &amp; tool integration</li>
+          <li>Free hosting via GitHub Pages (Zero ongoing server costs)</li>
+          <li>Built with Quality</li>
+        </ul>
+        <a href="/contact.qmd" class="tier-cta">Get Your Site →</a>
+      </div>
+    </div>
+
+    <div class="tier-card">
+      <div class="tier-top">
+        <div class="tier-icon">🏢</div>
+        <div class="tier-name">Business Website</div>
+        <div class="tier-tagline">For service providers &amp; local businesses</div>
+      </div>
+      <div class="tier-body">
+        <p class="tier-desc">
+          A clean, conversion-focused site that turns visitors into 
+          enquiries. From bespoke landing pages to full multi-page builds 
+          for agencies, travel firms, and consultancies.
+        </p>
+        <ul class="tier-features">
+          <li>Lead-capture &amp; contact form setup</li>
+          <li>SEO foundations &amp; meta structure</li>
+          <li>Google Analytics integration</li>
+          <li>Speed &amp; Core Web Vitals optimised</li>
+        </ul>
+        <a href="/contact.qmd" class="tier-cta">Build My Business Site →</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="compare-section content-section">
+  <div class="section-label">At a Glance</div>
+  <h2 class="section-title">What's Included in Each Tier</h2>
+  
+
+  <div style="overflow-x: auto; margin-top: 2.5rem; padding-bottom: 1rem;">
+    <table class="compare-table">
+      <thead>
+        <tr>
+          <th>Feature</th>
+          <th class="col-highlight">Academic &amp; Portfolio</th>
+          <th>Business Site</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Mobile-responsive design</td>
+          <td class="col-highlight"><span class="check">✓</span></td>
+          <td><span class="check">✓</span></td>
+        </tr>
+        <tr>
+          <td>Free Hosting (No Monthly Server Cost)</td>
+          <td class="col-highlight"><span class="check">✓</span></td>
+          <td><span class="dash">—</span></td>
+        </tr>
+        <tr>
+          <td>Custom domain setup</td>
+          <td class="col-highlight"><span class="check">✓</span></td>
+          <td><span class="check">✓</span></td>
+        </tr>
+        <tr>
+          <td>SEO &amp; metadata</td>
+          <td class="col-highlight"><span class="check">✓</span></td>
+          <td><span class="check">✓</span></td>
+        </tr>
+        <tr>
+          <td>Interactive data / demos</td>
+          <td class="col-highlight"><span class="check">✓</span></td>
+          <td><span class="dash">—</span></td>
+        </tr>
+        <tr>
+          <td>Contact form integration</td>
+          <td class="col-highlight"><span class="dash">—</span> (Via email link)</td>
+          <td><span class="check">✓</span></td>
+        </tr>
+        <tr>
+          <td>Analytics dashboard</td>
+          <td class="col-highlight"><span class="dash">—</span></td>
+          <td><span class="check">✓</span></td>
+        </tr>
+        <tr>
+          <td>Post-handoff support (2 wks)</td>
+          <td class="col-highlight"><span class="check">✓</span></td>
+          <td><span class="check">✓</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<div class="wd-cta content-section">
+  <h2>Let's Build Something Worth Visiting</h2>
+  <p>
+    Every project starts with a discovery call — no commitment, 
+    no pressure. Just a clear conversation about what you need and whether 
+    I'm the right person to build it.
+  </p>
+  <div class="wd-cta-actions">
+    <a href="/contact.qmd" class="btn-primary-wd">Start a Web Project →</a>
+    <a href="/services/assistance.qmd" class="btn-ghost-wd">See Remote Assistance</a>
+  </div>
+</div>
+```

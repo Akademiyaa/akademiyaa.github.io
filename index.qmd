@@ -1,0 +1,41 @@
+---
+format: html
+---
+
+::: content-section
+# Elevating Research & Empowering Developers
+
+Welcome. I operate a specialized freelancing agency and a modern digital learning hub. Whether you need an expert to handle the heavy lifting of your academic projects or you want to master cloud technologies, you are in the right place.
+
+[Explore Agency Services](#agency){.btn .btn-primary} [Start Coding](#learning){.btn .btn-primary}
+:::
+
+------------------------------------------------------------------------
+
+:::::: content-section
+## Two Pillars of Expertise
+
+::::: grid
+::: {.g-col-12 .g-col-md-6}
+### 🏢 The Agency
+
+I provide dedicated remote assistance to university professors, streamlining their academic workflows through expert documentation, coding, and design.
+
+Additionally, I develop high-performance, minimalist websites for personal portfolios and project showcases.
+
+[Hire Me for a Project](/contact.qmd){.btn .btn-primary}
+:::
+
+::: {.g-col-12 .g-col-md-6}
+### 💻 The Learning Hub
+
+Transitioning from fundamentals to production-ready skills. Join my online teaching sessions where we dive deep into modern infrastructure.
+
+-   **Linux Administration**
+-   **Cloud Technologies**
+-   **Modern Web Development**
+
+[View Course Catalog](/courses/coding.qmd){.btn .btn-primary}
+:::
+:::::
+::::::

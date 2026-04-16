@@ -1,0 +1,202 @@
+---
+title: ""
+format: html
+---
+
+```{=html}
+<section class="hero-section content-section">
+  <div class="hero-eyebrow">Academic Remote Assistance</div>
+  <h1 class="hero-title">
+    Your Research Deserves<br><em>Undivided Attention</em>
+  </h1>
+  <p class="hero-subtitle">
+    Specialized remote support for university faculty and researchers — so you spend
+    less time on overhead and more time on the work that actually matters.
+  </p>
+  <div class="hero-actions">
+    <a href="/contact.qmd" class="btn-primary-wd">Inquire About Availability</a>
+    <a href="#services" class="btn-ghost-wd">See What I Do ↓</a>
+  </div>
+</section>
+<div class="stats-bar">
+  <div class="stat-item">
+    <div class="stat-number">5+</div>
+    <div class="stat-label">Years in Academia</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-number">20+</div>
+    <div class="stat-label">Projects Completed</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-number">4</div>
+    <div class="stat-label">Core Services</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-number">100%</div>
+    <div class="stat-label">Remote & Async</div>
+  </div>
+</div>
+<section id="services" class="content-section">
+  <div class="section-label">What I Offer</div>
+  <h2 class="section-title">Services Built for Academics</h2>
+  <p>
+    Every service is designed around the real rhythm of academic life — deadlines, 
+    grant cycles, submission windows, and the constant pull of competing priorities.
+  </p>
+  <div class="section-divider"></div>
+</section>
+```
+
+::::::: {.grid .service-grid}
+::: {.g-col-12 .g-col-md-6}
+```{=html}
+<div class="service-card card-light shape-1">
+  <div class="service-card-top">
+      <div class="service-icon-wrap">📄</div>
+      <h3>Documentation &amp; Formatting</h3>
+  </div>
+  <div class="service-card-bottom">
+      <p>
+        Precise, publication-ready documentation. From formatting complex manuscripts 
+        to preparing comprehensive grant proposals, structuring detailed journal 
+        rebuttals, and compiling technical reports to exact style guidelines.
+      </p>
+      <div class="service-tags-container">
+        <span class="service-tag">Manuscripts</span>
+        <span class="service-tag">Grant Writing</span>
+        <span class="service-tag">APA / IEEE / ACS</span>
+      </div>
+  </div>
+</div>
+```
+:::
+
+::: {.g-col-12 .g-col-md-6}
+```{=html}
+<div class="service-card card-light shape-2">
+  <div class="service-card-top">
+      <div class="service-icon-wrap">💻</div>
+      <h3>Research Coding</h3>
+  </div>
+  <div class="service-card-bottom">
+      <p>
+        Robust coding assistance for your research projects. Whether scripting data 
+        analysis pipelines, automating repetitive tasks, or building statistical models —
+        I write clean, well-documented, reproducible code your reviewers can trust.
+      </p>
+      <div class="service-tags-container">
+        <span class="service-tag">Python / R</span>
+        <span class="service-tag">Data Pipelines</span>
+        <span class="service-tag">Automation</span>
+      </div>
+  </div>
+</div>
+```
+:::
+
+::: {.g-col-12 .g-col-md-6}
+```{=html}
+<div class="service-card card-light shape-2">
+  <div class="service-card-top">
+      <div class="service-icon-wrap">🎨</div>
+      <h3>Academic Design</h3>
+  </div>
+  <div class="service-card-bottom">
+      <p>
+        Transforming complex data into clear, compelling visual narratives. I design 
+        high-quality figures, schematic diagrams, and polished presentation slides 
+        ready for conferences, defenses, and high-impact journals.
+      </p>
+      <div class="service-tags-container">
+        <span class="service-tag">Figures &amp; Charts</span>
+        <span class="service-tag">Conference Slides</span>
+        <span class="service-tag">Infographics</span>
+      </div>
+  </div>
+</div>
+```
+:::
+
+::: {.g-col-12 .g-col-md-6}
+```{=html}
+<div class="service-card card-light shape-1">
+  <div class="service-card-top">
+      <div class="service-icon-wrap">⚙️</div>
+      <h3>Workflow &amp; Admin</h3>
+  </div>
+  <div class="service-card-bottom">
+      <p>
+        Streamlining your academic operations end-to-end. I help organize digital 
+        workspaces, manage calendars and meeting schedules, track project to-do lists, 
+        and set up efficient collaboration tools for your lab or research group.
+      </p>
+      <div class="service-tags-container">
+        <span class="service-tag">Calendar Management</span>
+        <span class="service-tag">Notion / Obsidian</span>
+        <span class="service-tag">Lab Coordination</span>
+      </div>
+  </div>
+</div>
+```
+:::
+:::::::
+
+```{=html}
+<section class="process-section content-section">
+  <div class="section-label">The Process</div>
+  <h2 class="section-title">How We Work Together</h2>
+  <p>
+    A simple, low-friction onboarding designed so you spend zero time learning 
+    a new system.
+  </p>
+  <div class="section-divider"></div>
+
+  <div class="process-steps">
+
+    <div class="process-step">
+      <div class="step-num">1</div>
+      <div class="step-content">
+        <h4>Discovery Call</h4>
+        <p>We talk for 20–30 minutes about your current bottlenecks, deadlines, 
+        and which tasks drain the most of your time.</p>
+      </div>
+    </div>
+
+    <div class="process-step">
+      <div class="step-num">2</div>
+      <div class="step-content">
+        <h4>Scoped Proposal</h4>
+        <p>I send a clear, itemized proposal with deliverables, timelines, and 
+        pricing — no vague retainers, no surprises.</p>
+      </div>
+    </div>
+
+    <div class="process-step">
+      <div class="step-num">3</div>
+      <div class="step-content">
+        <h4>Async Execution</h4>
+        <p>Work happens on a shared workspace (Notion, Drive, or your tool of 
+        choice). You get updates without being pulled into unnecessary meetings.</p>
+      </div>
+    </div>
+
+    <div class="process-step">
+      <div class="step-num">4</div>
+      <div class="step-content">
+        <h4>Review &amp; Iterate</h4>
+        <p>Structured feedback rounds until the deliverable meets your standard — 
+        revisions are built into every engagement.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+<div class="cta-banner content-section">
+  <h2>Ready to Reclaim Your Time?</h2>
+  <p>
+    Spots are limited — I work with a small number of clients at a time to keep 
+    quality high. Let's talk about how I can support your next deadline.
+  </p>
+  <a href="/contact.qmd" class="btn-primary-wd">Inquire About Availability →</a>
+</div>
+```
