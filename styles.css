@@ -2789,3 +2789,450 @@ body { overflow-x: hidden; }
 .track-page .cta-btns { display: flex; flex-wrap: wrap; gap: 1.2rem; justify-content: center; position: relative; z-index: 1; }
 
 @media(max-width: 640px) { .track-page .c-hero { padding: 5rem 1.5rem 3rem; } .track-page .s { padding: 4rem 1.5rem; } .track-page .c-cta { border-radius: 0; border-left: none; border-right: none;} }
+
+
+
+/* ==============
+   Homepage
+   ============== */
+
+/* Scope strictly to the homepage */
+.home-page {
+  font-family: 'Poppins', sans-serif;
+  color: var(--text-main);
+  background-color: transparent; 
+}
+
+/* ── Hero Section (Strictly Centered, No Lines) ── */
+.home-page .hero-section {
+  min-height: auto !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 8rem 2rem 2rem 2rem !important;
+  border-bottom: none; /* Removed line after the hero section */
+}
+
+.home-page .hero-content { 
+  max-width: 100%; 
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.home-page h1 { 
+  font-family: 'Instrument Serif', serif;
+  font-size: clamp(3rem, 6vw, 4.5rem);
+  line-height: 1.1; 
+  margin-bottom: 1.5rem; 
+  max-width: 100%; 
+  text-align: center;
+  color: var(--text-main);
+}
+
+.home-page h1 em { 
+  font-style: italic; 
+  color: var(--color-orange); 
+}
+
+.home-page .hero-body { 
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.15rem; 
+  max-width: 100%; 
+  margin: 0 auto 2.5rem auto; 
+  text-align: center;
+  color: var(--text-main);
+  opacity: 0.85;
+  line-height: 1.7;
+}
+
+.home-page .hero-actions { 
+  display: flex; 
+  gap: 1.5rem; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+  align-items: center;
+}
+
+/* ── Hero Buttons Sizing ── */
+.home-page .hero-actions .btn-primary,
+.home-page .hero-actions .btn-ghost {
+  font-size: 1.1rem !important;        /* Bumps up the text size */
+  padding: 16px 36px !important;       /* Increases top/bottom and left/right spacing */
+  letter-spacing: 0.02em;              /* Adds a tiny bit of breathing room to the letters */
+}
+
+/* ── Universal Asymmetric Ghost Button Fallback ── */
+/* Your global CSS handles .btn-primary perfectly, this ensures .btn-ghost matches identically */
+.home-page .btn-ghost {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 0.95rem;
+  padding: 10px 20px;
+  border: 1px solid var(--glass-border);
+  color: var(--text-main);
+  background: transparent;
+  border-radius: 16px 0 16px 0; /* Asymmetric Geometry matching .btn-primary */
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.home-page .btn-ghost:hover {
+  background: var(--code-bg);
+  border-color: var(--text-main);
+}
+
+/* ── Typography & General Structure ── */
+.home-page h2 { 
+  font-family: 'Instrument Serif', serif; 
+  font-size: clamp(2.2rem, 4vw, 3.2rem); 
+  margin-bottom: 1rem;
+  margin-top: 5rem;
+  color: var(--text-main);
+  border-bottom: none !important;
+}
+.home-page h3 { font-family: 'Instrument Serif', serif; font-size: 1.8rem; margin-bottom: 0.5rem; color: var(--text-main); line-height: 1.1; }
+.home-page h4 { font-family: 'Poppins', sans-serif; font-size: 1.1rem; font-weight: 600; margin-bottom: 0.2rem; color: var(--text-main); }
+.home-page p { color: var(--text-main); opacity: 0.85; line-height: 1.7; margin-bottom: 1rem; }
+
+
+.home-page .section {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 4rem 2rem 4rem 2rem !important;
+  border-bottom: none !important;
+  margin-top: 0rem !important;
+  margin-bottom: 1.5rem !important;
+}
+
+.home-page .section:last-child { 
+  border-bottom: none; 
+}
+
+
+/* ── Liquid Glass Cards & Grids ── */
+.home-page .glass-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.home-page .alt-grid { 
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+}
+
+.home-page .glass-card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--glass-border);
+  border-radius: 24px 0 24px 0; /* Asymmetric Geometry mapping */
+  padding: 2.5rem;
+  box-shadow: 0 10px 30px var(--glass-shadow);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.home-page .glass-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--color-orange);
+}
+
+.home-page .card-top { 
+  display: flex; 
+  align-items: baseline; 
+  gap: 1rem; 
+  margin-bottom: 1rem; 
+}
+
+.home-page .card-num { 
+  font-family: 'Instrument Serif', serif; 
+  font-size: 2rem; 
+  color: var(--color-orange); 
+  opacity: 0.5; 
+}
+
+/* ── Tags ── */
+.home-page .tags { 
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 0.5rem; 
+  margin-top: 1.5rem; 
+}
+
+.home-page .tags span {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--text-main);
+  background: var(--code-bg);
+  padding: 0.3rem 0.8rem;
+  border: 1px solid var(--glass-border);
+  border-radius: 100px;
+}
+
+
+/* ── Centered Titles & Stacked Layouts ── */
+.home-page .centered-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.home-page .text-center {
+  display: block;
+  text-align: center;
+  max-width: 100%;
+}
+
+.home-page .stack-section {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding-bottom: 2rem !important;
+}
+
+/* ── "Who Is Akademiyaa For" Grid ── */
+.home-page .audience-grid {
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  max-width: 100% !important;
+  margin: 0 auto;
+}
+
+.home-page .audience-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  border-radius: 16px;
+}
+
+/* New Flexbox container to align Icon and Text horizontally */
+.home-page .audience-header {
+  display: flex;
+  align-items: center; /* Vertically centers the icon with the text */
+  gap: 1.5rem;           /* Space between the icon and the heading */
+  margin-bottom: 1rem; /* Space below the header before the paragraph starts */
+}
+
+.home-page .audience-icon {
+  font-size: 2rem; /* Slightly scaled down so it balances perfectly next to text */
+  color: var(--color-orange);
+  flex-shrink: 0;  /* Prevents the icon from getting squished on smaller screens */
+}
+
+.home-page .audience-card h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.home-page .audience-card p {
+  font-size: 0.95rem;
+  margin: 0;
+  opacity: 0.85;
+  line-height: 1.6;
+}
+
+
+/* ── Process Grid (Forced 3-Column Layout) ── */
+
+.home-page .process-list {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important; /* Exactly 3 equal columns */
+  gap: 2rem;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 0rem !important;
+}
+
+/* Make the 3rd step span across both columns for perfect symmetry */
+.home-page .process-list .step:nth-child(3) {
+  grid-column: auto !important; 
+}
+
+/* ── Mobile Fallback ── */
+@media (max-width: 768px) {
+  .home-page .process-grid,
+  .home-page .process-list {
+    grid-template-columns: 1fr !important; /* Stacks vertically on mobile */
+  }
+}
+
+
+
+/* ── Fix for the Crushed 'Step' Text ── */
+.home-page .step-num { 
+  width: auto !important;         /* Overrides the global 48px width */
+  height: auto !important;        /* Overrides the global 48px height */
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  font-family: 'Inter', sans-serif; 
+  font-size: 0.85rem; 
+  font-weight: 600; 
+  color: var(--color-orange); 
+  display: block; 
+  margin-bottom: 0.8rem; 
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* ── Mobile Responsive Fallback ── */
+@media (max-width: 768px) {
+  .home-page .process-grid {
+    grid-template-columns: 1fr; /* Drops back to 1 column on phones */
+  }
+  .home-page .process-grid .step-card:nth-child(3) {
+    grid-column: auto;
+  }
+}
+
+
+
+/* ── Remove section borders ── */
+.home-page .no-border {
+  border-top: none !important;
+  border-bottom: none !important;
+}
+
+/* ── Why Choose Grid Enhancements ── */
+.home-page .why-grid {
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+  max-width: 100% !important;
+}
+
+.home-page .why-item {
+  padding: 1.2rem 1.2rem 1.2rem 1.2rem; /* Reduced from 2.5rem for a tighter box */
+  border-radius: 20px 0 20px 0; /* Slightly tightened corner radius to match padding */
+  display: flex;
+  flex-direction: column;
+}
+
+.home-page .why-item h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  text-align: center;
+  color: var(--text-main);
+  margin-bottom: 0.8rem;
+  margin-top: 0rem!important;
+}
+
+.home-page .why-item p {
+  font-size: 0.95rem;
+  opacity: 0.85;
+  margin: 0;
+  text-align: left; /* This forces the text block to have straight edges on both sides */
+  line-height: 1.6;
+}
+
+/* ── Trust Signals (Testimonials & Stats) ── */
+.home-page .trust-signals {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: none; /* Removed the line above the trust signals */
+  width: 100%;
+  max-width: 1200px;
+}
+
+.home-page .trust-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 3rem;
+  text-align: center;
+}
+
+.home-page .stat-num {
+  font-family: 'Instrument Serif', serif;
+  font-size: 4.5rem;
+  color: var(--color-orange);
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.home-page .stat-label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-main);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  opacity: 0.8;
+}
+
+/* ── Mobile Fallbacks for Trust Signals ── */
+@media (max-width: 768px) {
+  .home-page .trust-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2x2 grid on mobile */
+    gap: 2rem;
+  }
+  .home-page .stat-num {
+    font-size: 3.5rem;
+  }
+}
+
+
+
+/* ── CTA & Academy Stacked Layout ── */
+.home-page .cta-section,
+.home-page .academy-section { 
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.home-page .cta-box { 
+  width: 100%;
+  max-width: 100%; /* Constrains the width so it doesn't stretch too far */
+  padding: 1rem 2.5rem 3rem 2.5rem; 
+  background: var(--glass-bg); 
+  border-radius: 40px 0 40px 0; 
+  border: 1px solid var(--glass-border); 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; /* Centers the content */
+  box-shadow: 0 10px 30px var(--glass-shadow); 
+  backdrop-filter: blur(16px); 
+}
+
+.home-page .academy-box { 
+  width: 100%;
+  max-width: 100%;
+  padding: 1rem 2.5rem 3rem 2.5rem; 
+  border: 4px dashed var(--glass-border); 
+  border-radius: 40px 0 40px 0; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; /* Centers the content */
+}
+
+/* ── Mobile Responsive Overrides ── */
+@media (max-width: 992px) {
+  .home-page .cta-box, 
+  .home-page .academy-box { 
+    padding: 3.5rem 2rem; 
+  }
+}
+
+
+/* ── Responsive Adjustments ── */
+@media (max-width: 992px) {
+  .home-page .dual-section, .home-page .cta-section { grid-template-columns: 1fr; gap: 3rem; }
+  .home-page .cta-box, .home-page .academy-box { padding: 2.5rem; }
+  .home-page .tech-stack-box { flex-direction: column; align-items: flex-start; }
+}
+
+@media (max-width: 768px) {
+  .home-page h1 { font-size: 2.5rem; }
+  .home-page .section, .home-page .hero-section { padding: 4rem 1.5rem; }
+}

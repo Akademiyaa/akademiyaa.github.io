@@ -1,41 +1,205 @@
 ---
-format: html
+title: "Akademiyaa"
+format:
+  html:
+    page-layout: full
 ---
 
-::: content-section
-# Elevating Research & Empowering Developers
+```{=html}
+<div class="home-page">
+  <section class="hero-section">
+    <div class="hero-content">
+      
+      <h1>
+        Expert support for academicians.<br>
+        <em>Elegant websites for everyone.</em>
+      </h1>
+      
+      <p class="hero-body">
+        I provide specialized remote assistance to professors and researchers in  documentation, academic workflows etc. I also build fast, minimal websites for portfolios, research projects, and businesses.
+      </p>
+      
+      <div class="hero-actions">
+        <a href="/contact.qmd" class="btn-primary">Start a Project →</a>
+        <a href="/services/assistance.qmd" class="btn-ghost">View Services</a>
+      </div>
+      
+    </div>
+  </section>
 
-Welcome. I operate a specialized freelancing agency and a modern digital learning hub. Whether you need an expert to handle the heavy lifting of your academic projects or you want to master cloud technologies, you are in the right place.
+  <section class="home-page">
+    
+    <h2 class="centered-title">How we Work Together?</h2>
+    
+    <div class="home-page">
+      <div class="process-list">
+        <div class="step">
+          <span class="step-num">Step 1 &middot; Share requirements</span>
+          <p>Email or call with project details — type, deadline, and scope.</p>
+        </div>
+        <div class="step">
+          <span class="step-num">Step 2 &middot; Align on scope</span>
+          <p>Brief discussion to confirm deliverables and format to prevent rework.</p>
+        </div>
+        <div class="step">
+          <span class="step-num">Step 3 &middot; Deliver &amp; refine</span>
+          <p>First draft for your feedback, then revision rounds until perfect.</p>
+        </div>
+      </div>
+    </div>
 
-[Explore Agency Services](#agency){.btn .btn-primary} [Start Coding](#learning){.btn .btn-primary}
-:::
+  </section>
+  
+  
+  <section class="home-page">
+  
+    <h2 class="centered-title">Why Choosing Us?</h2>
+    
+    <div class="glass-grid why-grid">
+    
+  <div class="glass-card why-item">
+  <h4>Documentation Excellence</h4>
+  <p>Advanced Excel analysis, professional Word documentation, polished PowerPoint presentations. No more wrestling with formatting, broken formulas, or slides that look like clipart nightmares from 2003.</p>
+</div>  
+  
+   <div class="glass-card why-item">
+    <h4>Just You & Me</h4>
+    <p>No account managers. No junior staff. No offshore subcontractors. You email me, I do the work, you get the results. Simple • Consistent • Transparent • Accountable</p>
+  </div>
+  
+  <div class="glass-card why-item">
+    <h4>No Surprises, Ever</h4>
+    <p>Fixed price upfront. Strict confidentiality. Your every data stays private. Your budget stays predictable. Transparency isn't a bonus — it's baseline.</p>
+  </div>
+  
+<div class="glass-card why-item">
+  <h4>Communication Without the Anxiety</h4>
+  <p>Real response within 24 hours — not "got it," an actual answer. Progress updates sent automatically at key milestones (you never have to ask "how's it going?"). Work across time zones, prefer async? Perfect. No ghosting, no chasing, no "sorry for the delay" three weeks later. Just reliable communication that respects your deadline pressure.</p>
+</div>
+  
+<div class="glass-card why-item">
+  <h4>Perfect, Or We Keep Going</h4>
+  <p>Unlimited revisions — genuinely unlimited, not "3 rounds max then $50 per change." Deadlines are absolute: commit to Friday 3 PM, delivered Friday 3 PM. Something's not right? Fixed same-day. Want to try a different approach? Let's do it. No extra fees, no "that's scope creep" debates, no making you feel demanding for asking. The project ends when you're completely satisfied — not when I decide we're done.</p>
+</div>
+  
+  
+ <div class="glass-card why-item">
+  <h4>You Own Everything</h4>
+  <p>Fully-commented source files delivered for every project: .tex manuscripts you can recompile, .qmd reports you can regenerate, .R and .py scripts you can re-run on new data, .docx templates you can reuse, .xlsx models you can extend. No locked formats. No watermarks. No "editable version costs extra." Reviewer feedback at 11 PM? Update it yourself in minutes — no waiting on me. Your files. Your control. Permanently.</p>
+</div>
 
-------------------------------------------------------------------------
+    </div>
 
-:::::: content-section
-## Two Pillars of Expertise
+    <div class="trust-signals">
+      <div class="trust-grid">
+        
+        <div class="trust-stat">
+          <div class="stat-num">50+</div>
+          <div class="stat-label">Projects Delivered</div>
+        </div>
+        
+        <div class="trust-stat">
+          <div class="stat-num">100%</div>
+          <div class="stat-label">On-Time Delivery</div>
+        </div>
+        
+        <div class="trust-stat">
+          <div class="stat-num">&lt;24h</div>
+          <div class="stat-label">Avg Response Time</div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  
+  
+  
+  <section class="section">
+    <h2 class="centered-title">Who Is Akademiyaa For?</h2>
+    
+    <div class="glass-grid audience-grid">
+      
+      <div class="glass-card audience-card">
+        <div class="audience-header">
+          <i class="fa-solid fa-graduation-cap audience-icon"></i>
+          <h3>University Professors</h3>
+        </div>
+        <p>Focus on your research; let us handle typesetting, manuscript formatting, and reproducibility.</p>
+      </div>
+      
+      <div class="glass-card audience-card">
+        <div class="audience-header">
+          <i class="fa-solid fa-flask audience-icon"></i>
+          <h3>Doctoral Fellows</h3>
+        </div>
+        <p>Elevate your dissertation or conference papers with perfect LaTeX or Quarto formatting.</p>
+      </div>
+      
+      <div class="glass-card audience-card">
+        <div class="audience-header">
+          <i class="fa-solid fa-book-open-reader audience-icon"></i>
+          <h3>Academic Scholars</h3>
+        </div>
+        <p>Ensure your work meets strict journal standards and is presented with absolute clarity and precision.</p>
+      </div>
 
-::::: grid
-::: {.g-col-12 .g-col-md-6}
-### 🏢 The Agency
+     <div class="glass-card audience-card">
+        <div class="audience-header">
+          <i class="fa-solid fa-address-card audience-icon"></i>
+          <h3>Startups & Businesses</h3>
+        </div>
+        <p>Your website is your first employee — it works 24/7, never calls in sick, and either wins clients or loses them silently. Get one that wins. Custom-built, fast-loading, fully deployed. No templates. No excuses.</p>
+      </div>
 
-I provide dedicated remote assistance to university professors, streamlining their academic workflows through expert documentation, coding, and design.
+      <div class="glass-card audience-card">
+        <div class="audience-header">
+          <i class="fa-solid fa-network-wired audience-icon"></i>
+          <h3>Freelancers</h3>
+        </div>
+        <p>Upwork takes 20%. Fiverr buries your profile. PDF portfolios get deleted. Your own website charges zero commission, tells your story exactly how you want — 24/7, on your domain, to clients worth working with. Own your presence. Land better clients at rates you actually deserve.</p>
+      </div>
 
-Additionally, I develop high-performance, minimalist websites for personal portfolios and project showcases.
+      <div class="glass-card audience-card">
+        <div class="audience-header">
+          <i class="fa-solid fa-building-columns audience-icon"></i>
+          <h3>Tech Learners</h3>
+        </div>
+        <p>Knowing about Linux is not the same as running a server. Knowing about Python is not the same as writing production code. Close the gap — structured courses in Linux, AWS, Python, C/C++, and web development built around doing, not just watching.</p>
+      </div>
 
-[Hire Me for a Project](/contact.qmd){.btn .btn-primary}
-:::
+    </div>
+  </section>
+  
 
-::: {.g-col-12 .g-col-md-6}
-### 💻 The Learning Hub
+  <section class="section cta-section">
+    <div class="cta-box">
+      <h2 class="centered-title" style="margin-bottom: 1rem; margin-top: 3rem">
+        Your project deserves better<br>than "good enough".
+      </h2>
+      <p style="text-align: center; max-width: 900px; margin-bottom: 2rem;">
+        6 hours fighting LaTeX formatting. 3 complete slide deck rebuilds. 1 week waiting for a reply that never came. That's not work, that's time theft. Hand it over and get back to what you're actually good at. I'll return it finished, on time, exactly as you need it.
+      </p>
+     
+     
+      <div class="cta-actions" style="justify-content: center; margin-bottom: 1.5rem;">
+        <a href="/contact.qmd" class="btn-primary">Contact Now</a>
+      </div>
+      
+    </div>
+  </section>
 
-Transitioning from fundamentals to production-ready skills. Join my online teaching sessions where we dive deep into modern infrastructure.
+  <section class="section academy-section">
+    <div class="academy-box">
+      
+      <h2 class="centered-title" style="margin-bottom: 1rem; margin-top: 3rem">Want to Upskill Yourself?</h2>
+      <p style="text-align: center; max-width: 900px; margin-bottom: 2rem;">
+        I run structured online courses covering programming fundamentals, web development, Linux administration, AWS cloud, and AI-assisted publishing with Quarto.
+      </p>
+      <div class="cta-actions" style="justify-content: center;">
+        <a href="/courses/all_courses.qmd" class="btn-ghost">Explore All Courses →</a>
+      </div>
+    </div>
+  </section>
 
--   **Linux Administration**
--   **Cloud Technologies**
--   **Modern Web Development**
-
-[View Course Catalog](/courses/coding.qmd){.btn .btn-primary}
-:::
-:::::
-::::::
+</div>
+```
