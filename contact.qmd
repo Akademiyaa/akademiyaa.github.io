@@ -6,7 +6,6 @@ include-in-header:
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 ---
 
-::::::: content-section
 # Get in Touch
 
 We are available for questions, feedback, or collaboration opportunities. Let us know how we can help! We're here to help you move your projects forward. Whether it is professional academic documentation or a custom cloud curriculum, let's start a conversation.
@@ -94,4 +93,5 @@ We are available for questions, feedback, or collaboration opportunities. Let us
 :::
 :::::
 ::::::
+
 :::::::

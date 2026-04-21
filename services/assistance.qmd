@@ -5,12 +5,11 @@ format: html
 
 ```{=html}
 <section class="hero-section content-section">
-  <div class="hero-eyebrow">Academic Remote Assistance</div>
   <h1 class="hero-title">
     Your Research Deserves<br><em>Undivided Attention</em>
   </h1>
   <p class="hero-subtitle">
-    Specialized remote support for university faculty and researchers — so you spend
+    Specialized remote support for <strong>University faculty</strong> and <strong>Researchers</strong>, so you spend
     less time on overhead and more time on the work that actually matters.
   </p>
   <div class="hero-actions">
@@ -18,10 +17,11 @@ format: html
     <a href="#services" class="btn-ghost-wd">See What I Do ↓</a>
   </div>
 </section>
+
 <div class="stats-bar">
   <div class="stat-item">
-    <div class="stat-number">5+</div>
-    <div class="stat-label">Years in Academia</div>
+    <div class="stat-number">2+</div>
+    <div class="stat-label">Years in Remote services</div>
   </div>
   <div class="stat-item">
     <div class="stat-number">20+</div>
@@ -29,21 +29,20 @@ format: html
   </div>
   <div class="stat-item">
     <div class="stat-number">4</div>
-    <div class="stat-label">Core Services</div>
+    <div class="stat-label">Primary Services</div>
   </div>
   <div class="stat-item">
     <div class="stat-number">100%</div>
     <div class="stat-label">Remote & Async</div>
   </div>
 </div>
+
 <section id="services" class="content-section">
-  <div class="section-label">What I Offer</div>
+  <div class="section-label">What do I Offer?</div>
   <h2 class="section-title">Services Built for Academics</h2>
-  <p>
-    Every service is designed around the real rhythm of academic life — deadlines, 
-    grant cycles, submission windows, and the constant pull of competing priorities.
+  <p class="section-body">
+    Our services are synchronized with the actual rhythm of academic life. From looming grant cycles to tight submission windows, we help you navigate competing priorities so you can focus on the work that matters.
   </p>
-  <div class="section-divider"></div>
 </section>
 ```
 
@@ -52,19 +51,19 @@ format: html
 ```{=html}
 <div class="service-card card-light shape-1">
   <div class="service-card-top">
-      <div class="service-icon-wrap">📄</div>
-      <h3>Documentation &amp; Formatting</h3>
+      <div class="service-card-header">
+        <div class="service-icon-wrap">📄</div>
+        <h3>Documentation &amp; Formatting</h3>
+      </div>
   </div>
   <div class="service-card-bottom">
       <p>
-        Precise, publication-ready documentation. From formatting complex manuscripts 
-        to preparing comprehensive grant proposals, structuring detailed journal 
-        rebuttals, and compiling technical reports to exact style guidelines.
+        We deliver meticulous precision across every document type—from complex manuscript formatting and grant proposals to structured journal rebuttals and technical reports. Every project is refined to meet your exact style guidelines, guaranteed.
       </p>
       <div class="service-tags-container">
-        <span class="service-tag">Manuscripts</span>
-        <span class="service-tag">Grant Writing</span>
-        <span class="service-tag">APA / IEEE / ACS</span>
+        <span class="service-tag">LaTex</span>
+        <span class="service-tag">MS-Office</span>
+        <span class="service-tag">Google workspace with AI</span>
       </div>
   </div>
 </div>
@@ -72,22 +71,23 @@ format: html
 :::
 
 ::: {.g-col-12 .g-col-md-6}
+
 ```{=html}
 <div class="service-card card-light shape-2">
   <div class="service-card-top">
-      <div class="service-icon-wrap">💻</div>
-      <h3>Research Coding</h3>
+      <div class="service-card-header">
+        <div class="service-icon-wrap-1">💻</div>
+        <h3>Research Coding</h3>
+      </div>
   </div>
   <div class="service-card-bottom">
       <p>
-        Robust coding assistance for your research projects. Whether scripting data 
-        analysis pipelines, automating repetitive tasks, or building statistical models —
-        I write clean, well-documented, reproducible code your reviewers can trust.
+        Spend less time debugging and more time discovering. I use AI-driven workflows to script analysis pipelines and build statistical models that are clean, documented, and ready for publication.
       </p>
       <div class="service-tags-container">
-        <span class="service-tag">Python / R</span>
+        <span class="service-tag">Python / Quarto</span>
         <span class="service-tag">Data Pipelines</span>
-        <span class="service-tag">Automation</span>
+        <span class="service-tag">AI-Automation</span>
       </div>
   </div>
 </div>
@@ -95,17 +95,18 @@ format: html
 :::
 
 ::: {.g-col-12 .g-col-md-6}
+
 ```{=html}
 <div class="service-card card-light shape-2">
   <div class="service-card-top">
-      <div class="service-icon-wrap">🎨</div>
-      <h3>Academic Design</h3>
+      <div class="service-card-header">
+        <div class="service-icon-wrap-1">🎨</div>
+        <h3>Academic Design</h3>
+      </div>
   </div>
   <div class="service-card-bottom">
       <p>
-        Transforming complex data into clear, compelling visual narratives. I design 
-        high-quality figures, schematic diagrams, and polished presentation slides 
-        ready for conferences, defenses, and high-impact journals.
+        Turn your raw data into clear visual stories. Whether you need the mathematical precision of LaTeX Beamer, the versatility of PowerPoint, or the creative speed of AI-driven design, I deliver high-quality figures and slides ready for your next defense or journal submission.
       </p>
       <div class="service-tags-container">
         <span class="service-tag">Figures &amp; Charts</span>
@@ -118,17 +119,18 @@ format: html
 :::
 
 ::: {.g-col-12 .g-col-md-6}
+
 ```{=html}
 <div class="service-card card-light shape-1">
   <div class="service-card-top">
-      <div class="service-icon-wrap">⚙️</div>
-      <h3>Workflow &amp; Admin</h3>
+      <div class="service-card-header">
+        <div class="service-icon-wrap">⚙️</div>
+        <h3>Workflow &amp; Admin</h3>
+      </div>
   </div>
   <div class="service-card-bottom">
       <p>
-        Streamlining your academic operations end-to-end. I help organize digital 
-        workspaces, manage calendars and meeting schedules, track project to-do lists, 
-        and set up efficient collaboration tools for your lab or research group.
+        Stop managing logistics and start managing your lab. I organize your digital workspace, handle the friction of scheduling, and implement collaboration tools that keep your projects on track—giving you the headspace to focus on high-impact work.
       </p>
       <div class="service-tags-container">
         <span class="service-tag">Calendar Management</span>
@@ -144,12 +146,8 @@ format: html
 ```{=html}
 <section class="process-section content-section">
   <div class="section-label">The Process</div>
-  <h2 class="section-title">How We Work Together</h2>
-  <p>
-    A simple, low-friction onboarding designed so you spend zero time learning 
-    a new system.
-  </p>
-  <div class="section-divider"></div>
+  <h2 class="section-title">How We Work Together?</h2>
+  <p class="section-body"> An intuitive process designed to integrate seamlessly with your workflow—not add to your workload </p>
 
   <div class="process-steps">
 
@@ -157,8 +155,7 @@ format: html
       <div class="step-num">1</div>
       <div class="step-content">
         <h4>Discovery Call</h4>
-        <p>We talk for 20–30 minutes about your current bottlenecks, deadlines, 
-        and which tasks drain the most of your time.</p>
+        <p>We meet for 20–30 minutes to identify your current bottlenecks and determine which tasks are most critical to your success.</p>
       </div>
     </div>
 
@@ -166,8 +163,7 @@ format: html
       <div class="step-num">2</div>
       <div class="step-content">
         <h4>Scoped Proposal</h4>
-        <p>I send a clear, itemized proposal with deliverables, timelines, and 
-        pricing — no vague retainers, no surprises.</p>
+        <p>We provide a clear, itemized proposal detailing deliverables, timelines, and pricing. No vague retainers—just a transparent roadmap.</p>
       </div>
     </div>
 
@@ -175,8 +171,7 @@ format: html
       <div class="step-num">3</div>
       <div class="step-content">
         <h4>Async Execution</h4>
-        <p>Work happens on a shared workspace (Notion, Drive, or your tool of 
-        choice). You get updates without being pulled into unnecessary meetings.</p>
+        <p>Work takes place in a shared workspace—using Notion, Drive, or your preferred tool. You receive regular updates without being pulled into unnecessary meetings.</p>
       </div>
     </div>
 
@@ -184,8 +179,7 @@ format: html
       <div class="step-num">4</div>
       <div class="step-content">
         <h4>Review &amp; Iterate</h4>
-        <p>Structured feedback rounds until the deliverable meets your standard — 
-        revisions are built into every engagement.</p>
+        <p>We conduct structured feedback rounds until the final product meets your exact standards. Revisions are built into every engagement.</p>
       </div>
     </div>
 
@@ -194,8 +188,7 @@ format: html
 <div class="cta-banner content-section">
   <h2>Ready to Reclaim Your Time?</h2>
   <p>
-    Spots are limited — I work with a small number of clients at a time to keep 
-    quality high. Let's talk about how I can support your next deadline.
+    I maintain a small client roster to provide the deep-focus support your research deserves. Contact me today to reserve space for your upcoming submission or grant cycle.
   </p>
   <a href="/contact.qmd" class="btn-primary-wd">Inquire About Availability →</a>
 </div>
